@@ -1,0 +1,57 @@
+[01.03.24 02:06:35] Using single-gpu training
+[01.03.24 02:06:35] Using random seed 1217467309...
+[01.03.24 02:06:35] Args: {
+    "JK": "last",
+    "K": 3,
+    "MODULO": 4,
+    "MOD_THRESH": 1,
+    "aggr": "add",
+    "batch_size": 128,
+    "combine": "geometric",
+    "dataset_name": "EXP",
+    "drop_prob": 0.0,
+    "eps": 0.0,
+    "gpu_ids": [],
+    "hidden_size": 48,
+    "input_size": 2,
+    "kernel": "spd",
+    "l2_wd": 3e-07,
+    "load_path": null,
+    "lr": 0.001,
+    "max_distance_count": 1000,
+    "max_edge_count": 1000,
+    "max_edge_type": 1,
+    "max_hop_num": 5,
+    "max_pe_num": 1,
+    "model_name": "KPGIN",
+    "name": "KPGIN_spd_3_True_True_False_False",
+    "norm_type": "Batch",
+    "num_epochs": 40,
+    "num_hop1_edge": 1,
+    "num_hopk_edge": 1,
+    "num_layer": 3,
+    "num_workers": 0,
+    "output_size": 2,
+    "parallel": false,
+    "pooling_method": "sum",
+    "reprocess": false,
+    "residual": false,
+    "save_dir": "./save/EXP/KPGIN_spd_3_True_True_False_False-06",
+    "seed": 224,
+    "split": 10,
+    "train_eps": false,
+    "use_rd": false,
+    "virtual_node": false,
+    "wo_edge_feature": false,
+    "wo_path_encoding": false,
+    "wo_peripheral_configuration": true,
+    "wo_peripheral_edge": true
+}
+[01.03.24 02:06:35] ---------------Training on fold 1------------------------
+[01.03.24 02:06:35] The total parameters of model :[10562]
+[01.03.24 02:06:36] Epoch: 001, LR: 0.001000, Train Loss: 1.6533910, Val Loss: 1.4100145, Test Acc: 0.5000000, Exp Acc: 0.5000000, Lrn Acc: 0.5000000, Train Acc: 0.5000000, Seconds: 1.2431
+[01.03.24 02:06:37] Epoch: 002, LR: 0.001000, Train Loss: 0.1170644, Val Loss: 1.5756186, Test Acc: 0.5000000, Exp Acc: 0.5000000, Lrn Acc: 0.5000000, Train Acc: 0.5000000, Seconds: 1.0038
+[01.03.24 02:06:38] Epoch: 003, LR: 0.001000, Train Loss: 0.0372666, Val Loss: 1.3670276, Test Acc: 0.5000000, Exp Acc: 0.5000000, Lrn Acc: 0.5000000, Train Acc: 0.5000000, Seconds: 0.9438
+[01.03.24 02:06:40] Epoch: 004, LR: 0.001000, Train Loss: 0.0141327, Val Loss: 1.0036908, Test Acc: 0.5500000, Exp Acc: 0.5500000, Lrn Acc: 0.5500000, Train Acc: 0.5226337, Seconds: 1.2561
+[01.03.24 02:06:41] Epoch: 005, LR: 0.001000, Train Loss: 0.0046260, Val Loss: 0.5240097, Test Acc: 0.7666667, Exp Acc: 0.7833333, Lrn Acc: 0.7500000, Train Acc: 0.6944444, Seconds: 1.2967
+[01.03.24 02:06:42] Epoch: 006, LR: 0.001000, Train Loss: 0.0034805, Val Loss: 0.2650605, Test Acc: 0.8750000, Exp Acc: 0.8666667, Lrn Acc: 0.8833333, Train Acc: 0.8590535, Seconds: 0.9227

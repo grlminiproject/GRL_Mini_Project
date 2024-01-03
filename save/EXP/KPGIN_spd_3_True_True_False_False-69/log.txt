@@ -1,0 +1,79 @@
+[01.03.24 06:20:06] Using single-gpu training
+[01.03.24 06:20:06] Using random seed 3098213293...
+[01.03.24 06:20:06] Args: {
+    "JK": "last",
+    "K": 3,
+    "MODULO": 4,
+    "MOD_THRESH": 1,
+    "aggr": "add",
+    "batch_size": 128,
+    "combine": "geometric",
+    "dataset_name": "EXP",
+    "drop_prob": 0.0,
+    "eps": 0.0,
+    "gpu_ids": [],
+    "hidden_size": 48,
+    "input_size": 2,
+    "kernel": "spd",
+    "l2_wd": 3e-07,
+    "load_path": null,
+    "lr": 0.001,
+    "max_distance_count": 1000,
+    "max_edge_count": 1000,
+    "max_edge_type": 1,
+    "max_hop_num": 5,
+    "max_pe_num": 1,
+    "model_name": "KPGIN",
+    "name": "KPGIN_spd_3_True_True_False_False",
+    "norm_type": "Batch",
+    "num_epochs": 40,
+    "num_hop1_edge": 1,
+    "num_hopk_edge": 1,
+    "num_layer": 3,
+    "num_workers": 0,
+    "output_size": 2,
+    "parallel": false,
+    "pooling_method": "sum",
+    "reprocess": false,
+    "residual": false,
+    "save_dir": "./save/EXP/KPGIN_spd_3_True_True_False_False-69",
+    "seed": 224,
+    "split": 10,
+    "train_eps": false,
+    "use_rd": false,
+    "virtual_node": false,
+    "with_kn_configuration": false,
+    "wo_edge_feature": false,
+    "wo_path_encoding": false,
+    "wo_peripheral_configuration": true,
+    "wo_peripheral_edge": true
+}
+[01.03.24 06:20:06] ---------------Training on fold 1------------------------
+[01.03.24 06:20:06] The total parameters of model :[10562]
+[01.03.24 06:20:07] Epoch: 001, LR: 0.001000, Train Loss: 1.1318552, Val Loss: 0.8858883, Test Acc: 0.5000000, Exp Acc: 0.5000000, Lrn Acc: 0.5000000, Train Acc: 0.5000000, Seconds: 1.1368
+[01.03.24 06:20:08] Epoch: 002, LR: 0.001000, Train Loss: 0.1339614, Val Loss: 0.6750989, Test Acc: 0.5083333, Exp Acc: 0.5166667, Lrn Acc: 0.5000000, Train Acc: 0.5020576, Seconds: 0.9044
+[01.03.24 06:20:09] Epoch: 003, LR: 0.001000, Train Loss: 0.0220723, Val Loss: 0.6555816, Test Acc: 0.5000000, Exp Acc: 0.5000000, Lrn Acc: 0.5000000, Train Acc: 0.5000000, Seconds: 0.8786
+[01.03.24 06:20:10] Epoch: 004, LR: 0.001000, Train Loss: 0.0112554, Val Loss: 0.8368383, Test Acc: 0.5000000, Exp Acc: 0.5000000, Lrn Acc: 0.5000000, Train Acc: 0.5000000, Seconds: 0.8885
+[01.03.24 06:20:11] Epoch: 005, LR: 0.001000, Train Loss: 0.0022487, Val Loss: 1.2085163, Test Acc: 0.5000000, Exp Acc: 0.5000000, Lrn Acc: 0.5000000, Train Acc: 0.5010288, Seconds: 0.8605
+[01.03.24 06:20:12] Epoch: 006, LR: 0.001000, Train Loss: 0.0013676, Val Loss: 1.1135287, Test Acc: 0.5583333, Exp Acc: 0.5500000, Lrn Acc: 0.5666667, Train Acc: 0.5637860, Seconds: 0.8703
+[01.03.24 06:20:12] Epoch: 007, LR: 0.001000, Train Loss: 0.0006303, Val Loss: 0.5293307, Test Acc: 0.7416667, Exp Acc: 0.7333333, Lrn Acc: 0.7500000, Train Acc: 0.7870370, Seconds: 0.8733
+[01.03.24 06:20:13] Epoch: 008, LR: 0.001000, Train Loss: 0.0006673, Val Loss: 0.1421869, Test Acc: 0.9250000, Exp Acc: 0.9500000, Lrn Acc: 0.9000000, Train Acc: 0.9454733, Seconds: 0.8639
+[01.03.24 06:20:14] Epoch: 009, LR: 0.001000, Train Loss: 0.0004630, Val Loss: 0.0271291, Test Acc: 0.9916667, Exp Acc: 1.0000000, Lrn Acc: 0.9833333, Train Acc: 0.9958848, Seconds: 0.8924
+[01.03.24 06:20:15] Epoch: 010, LR: 0.001000, Train Loss: 0.0003506, Val Loss: 0.0034115, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8753
+[01.03.24 06:20:16] Epoch: 011, LR: 0.001000, Train Loss: 0.0002905, Val Loss: 0.0009169, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8969
+[01.03.24 06:20:17] Epoch: 012, LR: 0.001000, Train Loss: 0.0002966, Val Loss: 0.0005124, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8780
+[01.03.24 06:20:18] Epoch: 013, LR: 0.001000, Train Loss: 0.0003103, Val Loss: 0.0004140, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8714
+[01.03.24 06:20:19] Epoch: 014, LR: 0.001000, Train Loss: 0.0002133, Val Loss: 0.0003738, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8733
+[01.03.24 06:20:19] Epoch: 015, LR: 0.001000, Train Loss: 0.0001992, Val Loss: 0.0003516, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8466
+[01.03.24 06:20:20] Epoch: 016, LR: 0.001000, Train Loss: 0.0002008, Val Loss: 0.0003226, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8522
+[01.03.24 06:20:21] Epoch: 017, LR: 0.001000, Train Loss: 0.0001907, Val Loss: 0.0003031, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8670
+[01.03.24 06:20:22] Epoch: 018, LR: 0.001000, Train Loss: 0.0001481, Val Loss: 0.0002936, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8571
+[01.03.24 06:20:23] Epoch: 019, LR: 0.001000, Train Loss: 0.0001663, Val Loss: 0.0002655, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8585
+[01.03.24 06:20:24] Epoch: 020, LR: 0.001000, Train Loss: 0.0001489, Val Loss: 0.0002459, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8577
+[01.03.24 06:20:25] Epoch: 021, LR: 0.001000, Train Loss: 0.0001494, Val Loss: 0.0002236, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8613
+[01.03.24 06:20:25] Epoch: 022, LR: 0.001000, Train Loss: 0.0001169, Val Loss: 0.0002037, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8480
+[01.03.24 06:20:26] Epoch: 023, LR: 0.001000, Train Loss: 0.0001318, Val Loss: 0.0001984, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8472
+[01.03.24 06:20:27] Epoch: 024, LR: 0.001000, Train Loss: 0.0001347, Val Loss: 0.0001797, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8448
+[01.03.24 06:20:28] Epoch: 025, LR: 0.001000, Train Loss: 0.0001190, Val Loss: 0.0001715, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8532
+[01.03.24 06:20:29] Epoch: 026, LR: 0.001000, Train Loss: 0.0000907, Val Loss: 0.0001603, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8542
+[01.03.24 06:20:30] Epoch: 027, LR: 0.001000, Train Loss: 0.0001118, Val Loss: 0.0001555, Test Acc: 1.0000000, Exp Acc: 1.0000000, Lrn Acc: 1.0000000, Train Acc: 1.0000000, Seconds: 0.8480

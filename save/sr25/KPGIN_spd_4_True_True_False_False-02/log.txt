@@ -1,0 +1,250 @@
+[01.03.24 06:56:28] multi-gpu training is prohibited due to the size of SR25 dataset and unstable training performance
+[01.03.24 06:56:28] Using random seed 2448891054...
+[01.03.24 06:56:30] Args: {
+    "JK": "last",
+    "K": 4,
+    "aggr": "add",
+    "batch_size": 64,
+    "combine": "geometric",
+    "dataset_name": "sr25",
+    "drop_prob": 0.0,
+    "eps": 0.0,
+    "factor": 0.5,
+    "gpu_ids": [],
+    "hidden_size": 48,
+    "input_size": 2,
+    "kernel": "spd",
+    "l2_wd": 0.0,
+    "load_path": null,
+    "lr": 0.001,
+    "max_distance_count": 1000,
+    "max_edge_count": 1000,
+    "max_edge_type": 1,
+    "max_hop_num": 4,
+    "max_pe_num": 1000,
+    "model_name": "KPGIN",
+    "name": "KPGIN_spd_4_True_True_False_False",
+    "norm_type": "Batch",
+    "num_epochs": 200,
+    "num_hop1_edge": 1,
+    "num_hopk_edge": 1000,
+    "num_layer": 4,
+    "num_workers": 0,
+    "output_size": 15,
+    "parallel": false,
+    "patience": 5,
+    "pooling_method": "sum",
+    "residual": false,
+    "save_dir": "./save/sr25/KPGIN_spd_4_True_True_False_False-02",
+    "seed": 224,
+    "train_eps": false,
+    "use_rd": false,
+    "virtual_node": false,
+    "with_kn_configuration": true,
+    "wo_edge_feature": false,
+    "wo_path_encoding": false,
+    "wo_peripheral_configuration": true,
+    "wo_peripheral_edge": true
+}
+[01.03.24 06:56:30] The total parameters of model :[107344]
+[01.03.24 06:56:30] Epoch: 001, LR: 0.001000, Train Loss: 2.8646, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.1393
+[01.03.24 06:56:30] Epoch: 002, LR: 0.001000, Train Loss: 2.8433, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0381
+[01.03.24 06:56:30] Epoch: 003, LR: 0.001000, Train Loss: 2.8233, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:30] Epoch: 004, LR: 0.001000, Train Loss: 2.8068, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0378
+[01.03.24 06:56:30] Epoch: 005, LR: 0.001000, Train Loss: 2.7919, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0399
+[01.03.24 06:56:30] Epoch: 006, LR: 0.001000, Train Loss: 2.7795, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0392
+[01.03.24 06:56:30] Epoch: 007, LR: 0.001000, Train Loss: 2.7686, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:31] Epoch: 008, LR: 0.001000, Train Loss: 2.7590, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0370
+[01.03.24 06:56:31] Epoch: 009, LR: 0.001000, Train Loss: 2.7509, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0368
+[01.03.24 06:56:31] Epoch: 010, LR: 0.001000, Train Loss: 2.7438, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0381
+[01.03.24 06:56:31] Epoch: 011, LR: 0.001000, Train Loss: 2.7383, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:31] Epoch: 012, LR: 0.001000, Train Loss: 2.7332, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:31] Epoch: 013, LR: 0.001000, Train Loss: 2.7292, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0379
+[01.03.24 06:56:31] Epoch: 014, LR: 0.001000, Train Loss: 2.7255, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:31] Epoch: 015, LR: 0.001000, Train Loss: 2.7225, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:31] Epoch: 016, LR: 0.001000, Train Loss: 2.7198, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0406
+[01.03.24 06:56:31] Epoch: 017, LR: 0.001000, Train Loss: 2.7178, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0366
+[01.03.24 06:56:31] Epoch: 018, LR: 0.001000, Train Loss: 2.7160, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0379
+[01.03.24 06:56:31] Epoch: 019, LR: 0.001000, Train Loss: 2.7147, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:31] Epoch: 020, LR: 0.001000, Train Loss: 2.7135, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:31] Epoch: 021, LR: 0.001000, Train Loss: 2.7127, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:31] Epoch: 022, LR: 0.001000, Train Loss: 2.7119, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0381
+[01.03.24 06:56:31] Epoch: 023, LR: 0.001000, Train Loss: 2.7114, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:31] Epoch: 024, LR: 0.001000, Train Loss: 2.7109, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:31] Epoch: 025, LR: 0.001000, Train Loss: 2.7105, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0372
+[01.03.24 06:56:31] Epoch: 026, LR: 0.001000, Train Loss: 2.7102, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:31] Epoch: 027, LR: 0.001000, Train Loss: 2.7099, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:31] Epoch: 028, LR: 0.001000, Train Loss: 2.7095, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0378
+[01.03.24 06:56:31] Epoch: 029, LR: 0.001000, Train Loss: 2.7093, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0361
+[01.03.24 06:56:31] Epoch: 030, LR: 0.001000, Train Loss: 2.7091, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0406
+[01.03.24 06:56:31] Epoch: 031, LR: 0.001000, Train Loss: 2.7089, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0368
+[01.03.24 06:56:31] Epoch: 032, LR: 0.001000, Train Loss: 2.7088, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0383
+[01.03.24 06:56:31] Epoch: 033, LR: 0.001000, Train Loss: 2.7087, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:32] Epoch: 034, LR: 0.001000, Train Loss: 2.7086, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0387
+[01.03.24 06:56:32] Epoch: 035, LR: 0.001000, Train Loss: 2.7085, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0401
+[01.03.24 06:56:32] Epoch: 036, LR: 0.001000, Train Loss: 2.7086, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:32] Epoch: 037, LR: 0.001000, Train Loss: 2.7085, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:32] Epoch: 038, LR: 0.001000, Train Loss: 2.7085, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:32] Epoch: 039, LR: 0.001000, Train Loss: 2.7085, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0392
+[01.03.24 06:56:32] Epoch: 040, LR: 0.001000, Train Loss: 2.7085, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0378
+[01.03.24 06:56:32] Epoch: 041, LR: 0.001000, Train Loss: 2.7084, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:32] Epoch: 042, LR: 0.001000, Train Loss: 2.7085, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0391
+[01.03.24 06:56:32] Epoch: 043, LR: 0.001000, Train Loss: 2.7084, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0370
+[01.03.24 06:56:32] Epoch: 044, LR: 0.001000, Train Loss: 2.7084, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0371
+[01.03.24 06:56:32] Epoch: 045, LR: 0.001000, Train Loss: 2.7084, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:32] Epoch: 046, LR: 0.001000, Train Loss: 2.7084, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0368
+[01.03.24 06:56:32] Epoch: 047, LR: 0.001000, Train Loss: 2.7083, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0388
+[01.03.24 06:56:32] Epoch: 048, LR: 0.001000, Train Loss: 2.7083, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0370
+[01.03.24 06:56:32] Epoch: 049, LR: 0.001000, Train Loss: 2.7083, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:32] Epoch: 050, LR: 0.001000, Train Loss: 2.7083, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0386
+[01.03.24 06:56:32] Epoch: 051, LR: 0.001000, Train Loss: 2.7083, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:32] Epoch: 052, LR: 0.001000, Train Loss: 2.7083, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:32] Epoch: 053, LR: 0.001000, Train Loss: 2.7083, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:32] Epoch: 054, LR: 0.001000, Train Loss: 2.7082, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0376
+[01.03.24 06:56:32] Epoch: 055, LR: 0.001000, Train Loss: 2.7082, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0379
+[01.03.24 06:56:32] Epoch: 056, LR: 0.001000, Train Loss: 2.7082, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:32] Epoch: 057, LR: 0.001000, Train Loss: 2.7082, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0368
+[01.03.24 06:56:32] Epoch: 058, LR: 0.001000, Train Loss: 2.7082, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:32] Epoch: 059, LR: 0.001000, Train Loss: 2.7082, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:33] Epoch: 060, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0365
+[01.03.24 06:56:33] Epoch: 061, LR: 0.001000, Train Loss: 2.7082, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0392
+[01.03.24 06:56:33] Epoch: 062, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:33] Epoch: 063, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0373
+[01.03.24 06:56:33] Epoch: 064, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0373
+[01.03.24 06:56:33] Epoch: 065, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0366
+[01.03.24 06:56:33] Epoch: 066, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:33] Epoch: 067, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:33] Epoch: 068, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0376
+[01.03.24 06:56:33] Epoch: 069, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0372
+[01.03.24 06:56:33] Epoch: 070, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:33] Epoch: 071, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:33] Epoch: 072, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:33] Epoch: 073, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:33] Epoch: 074, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0362
+[01.03.24 06:56:33] Epoch: 075, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:33] Epoch: 076, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0362
+[01.03.24 06:56:33] Epoch: 077, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:33] Epoch: 078, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0372
+[01.03.24 06:56:33] Epoch: 079, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:33] Epoch: 080, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0393
+[01.03.24 06:56:33] Epoch: 081, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:33] Epoch: 082, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0399
+[01.03.24 06:56:33] Epoch: 083, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0396
+[01.03.24 06:56:33] Epoch: 084, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0381
+[01.03.24 06:56:33] Epoch: 085, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:33] Epoch: 086, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0392
+[01.03.24 06:56:34] Epoch: 087, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:34] Epoch: 088, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0371
+[01.03.24 06:56:34] Epoch: 089, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0391
+[01.03.24 06:56:34] Epoch: 090, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0371
+[01.03.24 06:56:34] Epoch: 091, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:34] Epoch: 092, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:34] Epoch: 093, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:34] Epoch: 094, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0379
+[01.03.24 06:56:34] Epoch: 095, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0387
+[01.03.24 06:56:34] Epoch: 096, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0370
+[01.03.24 06:56:34] Epoch: 097, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:34] Epoch: 098, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0368
+[01.03.24 06:56:34] Epoch: 099, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0388
+[01.03.24 06:56:34] Epoch: 100, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0390
+[01.03.24 06:56:34] Epoch: 101, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0386
+[01.03.24 06:56:34] Epoch: 102, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0396
+[01.03.24 06:56:34] Epoch: 103, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:34] Epoch: 104, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:34] Epoch: 105, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0373
+[01.03.24 06:56:34] Epoch: 106, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0378
+[01.03.24 06:56:34] Epoch: 107, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:34] Epoch: 108, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:34] Epoch: 109, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:34] Epoch: 110, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0381
+[01.03.24 06:56:34] Epoch: 111, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0393
+[01.03.24 06:56:34] Epoch: 112, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0359
+[01.03.24 06:56:35] Epoch: 113, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:35] Epoch: 114, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:35] Epoch: 115, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:35] Epoch: 116, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:35] Epoch: 117, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0372
+[01.03.24 06:56:35] Epoch: 118, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0371
+[01.03.24 06:56:35] Epoch: 119, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0371
+[01.03.24 06:56:35] Epoch: 120, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:35] Epoch: 121, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:35] Epoch: 122, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0365
+[01.03.24 06:56:35] Epoch: 123, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:35] Epoch: 124, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0380
+[01.03.24 06:56:35] Epoch: 125, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:35] Epoch: 126, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:35] Epoch: 127, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0380
+[01.03.24 06:56:35] Epoch: 128, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0372
+[01.03.24 06:56:35] Epoch: 129, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0390
+[01.03.24 06:56:35] Epoch: 130, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0386
+[01.03.24 06:56:35] Epoch: 131, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0381
+[01.03.24 06:56:35] Epoch: 132, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0410
+[01.03.24 06:56:35] Epoch: 133, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:35] Epoch: 134, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:35] Epoch: 135, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0370
+[01.03.24 06:56:35] Epoch: 136, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0367
+[01.03.24 06:56:35] Epoch: 137, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0379
+[01.03.24 06:56:35] Epoch: 138, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:36] Epoch: 139, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0393
+[01.03.24 06:56:36] Epoch: 140, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:36] Epoch: 141, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0395
+[01.03.24 06:56:36] Epoch: 142, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:36] Epoch: 143, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0383
+[01.03.24 06:56:36] Epoch: 144, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:36] Epoch: 145, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0365
+[01.03.24 06:56:36] Epoch: 146, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0398
+[01.03.24 06:56:36] Epoch: 147, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:36] Epoch: 148, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0375
+[01.03.24 06:56:36] Epoch: 149, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0378
+[01.03.24 06:56:36] Epoch: 150, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0388
+[01.03.24 06:56:36] Epoch: 151, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:36] Epoch: 152, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0389
+[01.03.24 06:56:36] Epoch: 153, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0396
+[01.03.24 06:56:36] Epoch: 154, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0393
+[01.03.24 06:56:36] Epoch: 155, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:36] Epoch: 156, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0383
+[01.03.24 06:56:36] Epoch: 157, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0371
+[01.03.24 06:56:36] Epoch: 158, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:36] Epoch: 159, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0372
+[01.03.24 06:56:36] Epoch: 160, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:36] Epoch: 161, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:36] Epoch: 162, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0378
+[01.03.24 06:56:36] Epoch: 163, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0390
+[01.03.24 06:56:36] Epoch: 164, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0360
+[01.03.24 06:56:37] Epoch: 165, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0385
+[01.03.24 06:56:37] Epoch: 166, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0383
+[01.03.24 06:56:37] Epoch: 167, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0388
+[01.03.24 06:56:37] Epoch: 168, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:37] Epoch: 169, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0387
+[01.03.24 06:56:37] Epoch: 170, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0380
+[01.03.24 06:56:37] Epoch: 171, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:37] Epoch: 172, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0402
+[01.03.24 06:56:37] Epoch: 173, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0367
+[01.03.24 06:56:37] Epoch: 174, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0379
+[01.03.24 06:56:37] Epoch: 175, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0378
+[01.03.24 06:56:37] Epoch: 176, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0384
+[01.03.24 06:56:37] Epoch: 177, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0374
+[01.03.24 06:56:37] Epoch: 178, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0397
+[01.03.24 06:56:37] Epoch: 179, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0362
+[01.03.24 06:56:37] Epoch: 180, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0365
+[01.03.24 06:56:37] Epoch: 181, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0387
+[01.03.24 06:56:37] Epoch: 182, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:37] Epoch: 183, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:37] Epoch: 184, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:37] Epoch: 185, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0420
+[01.03.24 06:56:37] Epoch: 186, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0387
+[01.03.24 06:56:37] Epoch: 187, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:37] Epoch: 188, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0365
+[01.03.24 06:56:37] Epoch: 189, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0363
+[01.03.24 06:56:37] Epoch: 190, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0388
+[01.03.24 06:56:38] Epoch: 191, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0362
+[01.03.24 06:56:38] Epoch: 192, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0391
+[01.03.24 06:56:38] Epoch: 193, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0382
+[01.03.24 06:56:38] Epoch: 194, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0383
+[01.03.24 06:56:38] Epoch: 195, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0379
+[01.03.24 06:56:38] Epoch: 196, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0377
+[01.03.24 06:56:38] Epoch: 197, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0369
+[01.03.24 06:56:38] Epoch: 198, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0398
+[01.03.24 06:56:38] Epoch: 199, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0392
+[01.03.24 06:56:38] Epoch: 200, LR: 0.001000, Train Loss: 2.7081, Test Acc: 0.0667, Best Test Acc: 0.0667, Seconds: 0.0380
+[01.03.24 06:56:38] Loss: 2.7081, Best test: 0.0667, Seconds/epoch: 0.0388
